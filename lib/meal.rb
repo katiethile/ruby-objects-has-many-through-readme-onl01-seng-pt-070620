@@ -1,3 +1,4 @@
 class Meal
-  attr_accessor
+  attr_accessor :waiter, :customer, :total, :tip
+  
 end
