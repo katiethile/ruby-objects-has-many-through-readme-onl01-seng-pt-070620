@@ -24,7 +24,7 @@ class Customer
   
   def waiters
     meals.map do |meal|
-      meal.customer == self 
+      meal.waiter == self 
     end 
   end 
 end 
