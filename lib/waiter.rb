@@ -13,5 +13,6 @@ class Waiter
   end 
   
   def meals 
-    Meal.
+    Meal.all.select do |meal|
+      meal.
 end 
